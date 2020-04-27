@@ -1,0 +1,52 @@
+{
+   "XS" : 0,
+   "abstract" : "Prefix log messages with run-time context",
+   "builder" : "play",
+   "builder_API_version" : "1",
+   "license" : "perl",
+   "maintainers" : [
+      "Livesite Networks, LLC"
+   ],
+   "name" : "perl-Apache2-LogUtil",
+   "primary" : "Apache2::LogUtil",
+   "provides" : {
+      "Apache2::LogUtil" : {
+         "file" : "lib/Apache2/LogUtil.pm",
+         "version" : "0.1"
+      },
+      "Apache2::Testing::LogUtil" : {
+         "file" : "lib/Apache2/Testing/LogUtil.pm",
+         "version" : 0
+      },
+      "Misc::Stopwatch" : {
+         "file" : "lib/Misc/Stopwatch.pm",
+         "version" : "0.1"
+      }
+   },
+   "recommends_runtime" : {},
+   "requires_build" : {
+      "Data::Hub" : 0,
+      "Data::Hub::Util" : 0,
+      "Perl::Module" : 0,
+      "Test::More" : 0,
+      "lib" : 0,
+      "strict" : 0,
+      "warnings" : 0
+   },
+   "requires_develop" : {},
+   "requires_runtime" : {
+      "APR::Const" : 0,
+      "APR::OS" : 0,
+      "Apache2::Const" : 0,
+      "Apache2::Log" : 0,
+      "Apache2::MPM" : 0,
+      "Apache2::RequestRec" : 0,
+      "Apache2::ServerUtil" : 0,
+      "Test::More" : "0.42",
+      "Time::HiRes" : 0,
+      "strict" : 0,
+      "warnings" : 0
+   },
+   "source" : "PAUSE",
+   "version" : "00.01001"
+}
